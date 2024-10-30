@@ -1,0 +1,62 @@
+/* Container utama untuk detail film */
+.detail-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #1c1c1c;
+    min-height: 100vh;
+    padding: 20px;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Gaya untuk gambar film */
+  .detail-container img {
+    width: 250px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Gaya untuk judul film */
+  .detail-container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+    color: #e50914;
+  }
+  
+  /* Gaya untuk teks deskripsi dan informasi lainnya */
+  .detail-container p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin: 8px 0;
+  }
+  
+  /* Gaya untuk label teks informasi (misal: Genre, Duration, dll.) */
+  .detail-container strong {
+    color: #f5c518;
+  }
+  
+  /* Gaya untuk elemen teks informasi tambahan */
+  .detail-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  /* Responsive layout untuk tampilan mobile */
+  @media (max-width: 600px) {
+    .detail-container img {
+      width: 180px;
+    }
+  
+    .detail-container h1 {
+      font-size: 2rem;
+    }
+  
+    .detail-container p {
+      font-size: 1rem;
+    }
+  }
+  
